@@ -2,7 +2,7 @@ name: Scheduled Ping
 # This workflow is triggered at a scheduled interval of every 15 minutes
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   pinger_job:
