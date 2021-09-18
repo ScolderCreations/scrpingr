@@ -3,6 +3,7 @@ name: Scheduled Ping
 on:
   schedule:
     - cron:  '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   pinger_job:
